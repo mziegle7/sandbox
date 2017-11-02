@@ -2,30 +2,50 @@
 
 <html lang="en">
 <head>
-  <meta charset="utf-8">
-  <title>This is what appears in the tab</title>
-                <link rel=stylesheet" 
-                 href=main.css">
+    <meta charset="utf-8">
+    <title>This is what appears in the tab</title>
+    <link rel="stylesheet" href="main.css">
     <style>
-            .funky {
-                background-color: #1b896c;
-                color: #29be29;
-            }
+        .funky {
+            background-color: #1b896c;
+            color: #29be29;
+        }
 
-            #funkyID {
-                background-color: #bc1ab6;
-                color: #39de39;
-            }
-</style>
- -->this is a change!!!!!!!!!!!>
+        #funkyID {
+            background-color: #bc1ab6;
+            color: #39de39;
+        }
+
+        .float {
+            float: left;
+            margin-right: 10px;
+            border: 3px ridge #000000;
+        }
+
+        .clearleft {
+            clear: left;
+        }
+
+        #overflow {
+            background-color: burlywood;
+            width: 50px;
+            overflow: visible;
+        }
+    </style>
+
+
 </head>
 
 <body>
-This is the body! 
-            <p>This is a normal paragraph</p>
-        <p id="funkyID">This is not a normal paragraph</p>
-        <p class="funky">This is a normal paragraph</p>
-        <p class="funky">This is another normal paragraph</p>
+    This is the body!
+    <p>This is a normal paragraph.
+    </p>
+    <div>
+        <img class="float" src="cool%20pic.jpg" alt=cool pic height=250>
+    </div>
+    <p id="funkyID">This is not a normal paragraph</p>
+    <p class="funky">This is a normal paragraph</p>
+    <p id="overflow" class="clearleft"> This is another normal paragraph that I am typing right now. It is super interesting and fun to look at with its exessive wordiness that only some people with a complex sense of humor can really appreciate.</p>
 
 </body>
 </html>
